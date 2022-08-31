@@ -1,0 +1,18 @@
+﻿Console.Clear();
+Console.WriteLine("A(x1; y1; z1)");
+Console.Write("Введите x1: ");
+int x1 = int.Parse(Console.ReadLine());
+Console.Write("Введите y1: ");
+int y1 = int.Parse(Console.ReadLine());
+Console.Write("Введите z1: ");
+int z1 = int.Parse(Console.ReadLine());
+Console.WriteLine("B(x2; y2; z2)");
+Console.Write("Введите x2: ");
+int x2 = int.Parse(Console.ReadLine());
+Console.Write("Введите y2: ");
+int y2 = int.Parse(Console.ReadLine());
+Console.Write("Введите z2: ");
+int z2 = int.Parse(Console.ReadLine());
+double l = Math.Sqrt((Math.Pow(x2 - x1, 2)) + (Math.Pow(y2 - y1, 2)) + (Math.Pow(z2 - z1, 2)));
+l = Math.Round(l, 2);
+Console.WriteLine(l);
